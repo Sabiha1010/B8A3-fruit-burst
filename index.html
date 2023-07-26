@@ -23,7 +23,7 @@
 <body>
     <header>
       <!-- navbar -->
-        <div class="navbar" style="width: 1400px;height: 100px;border-radius: 500px;background-color: salmon; color: #FFF;">
+        <div class="navbar" style="width: 1400px;height: 100px;border-radius: 400px;background-color: salmon; color: #FFF;">
           <div class="navbar-start">
             <ul class="menu menu-horizontal lg:menu-horizontal">
               <li><a>Home</a></li>
@@ -56,10 +56,10 @@
       </nav>
       <!-- banner1 -->
     <section>
-      <div class="carousel w-full">
+      <div class="carousel">
         <!-- slider1 -->
         <div id="slide1" class="carousel-item relative w-full">
-          <div class="hero min-h-screen" style="background-image: url(./images/banner1.png);">
+          <div class="hero " style="background-image: url(./images/banner1.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="max-w-md">
@@ -80,7 +80,7 @@
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="max-w-md">
-                <h1 class="mb-5 text-4xl font-bold">Exotic tastes at your <br> doorstep</h1>
+                <h1 class="mb-5 text-4xl">Exotic tastes at your <br> doorstep</h1>
                 <p class="mb-5">We supply highly quality organic products</p>
                 <button class="btn btn-error" style="color: #FFF;">Shop Now</button>
               </div>
@@ -130,13 +130,12 @@
     </header>
     <main>
       <!-- banner2 -->
-      <section style=" width: 1300px; height: 700px;">
-        <div class="flex">
+      <section style=" width: 1400px; height: 600px;">
+        <div style="display: flex;">
           <div>
-            <h1 style="color: #121212; font-weight: 800;">Deal of the day</h1>
-            <p style="color: rgba(18, 18, 18, 0.60); font-weight: 500;">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+            <h1 class="text-3xl font-bold" style="color: #121212;">Deal of the day</h1>
+            <p class="text-lg" style="color: rgba(18, 18, 18, 0.60);">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
-          <div>
             
           <div class="flex items-center gap-7">
             <h1 style="color: #121212; font-weight: 800;">29</h1>
@@ -147,15 +146,108 @@
             <img style="width: 20px;height: 18px;" src="images/Frame.jpg" alt="">
             <h1 style="color: #121212; font-weight: 800;">08</h1>
           </div>
-          <div class="flex items-center gap-12" style="color: rgba(18, 18, 18, 0.60); font-weight: 500;">
+          <div class="flex items-center gap-12"    style="color: rgba(18, 18, 18, 0.60); font-weight: 500;">
             <h3>Days</h3>
             <h3>Hours</h3>
             <h3>Minutes</h3>
             <h3>Seconds</h3>
           </div>
-          </div>
         </div>
+      </div>
+        <div class="grid grid-cols-4">
+          <!-- card1 -->
+          <div class="card w-80 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit6.png" alt="" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <p>Apples</p>
+              <!-- You can open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_4.showModal()">Details</button>
+<dialog id="my_modal_4" class="modal">
+  <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+     <img src="images/fruit6.png" alt="">
+    <h3 class="font-bold text-lg">Apples</h3>
+    <p class="py-4"></p>
+    <div class="modal-action">
+      <button class="btn" style="color: salmon;border: 1px solid salmon;">Close</button>
+      <button class="btn btn-error">Shop Now</button>
+    </div>
+  </form>
+</dialog>
+            </div>
+          </div>
+          <!-- card2 -->
+         <div class="card w-80 bg-base-100  shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit7.png" alt="" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <p>Orange</p>
+              <button class="btn" onclick="my_modal_4.showModal()">Details</button>
+<dialog id="my_modal_4" class="modal">
+  <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+     <img src="images/fruit7.png" alt="">
+    <h3 class="font-bold text-lg">Orange</h3>
+    <p class="py-4"></p>
+    <div class="modal-action">
+      <button class="btn" style="color: salmon;border: 1px solid salmon;">Close</button>
+      <button class="btn btn-error">Shop Now</button>
+    </div>
+  </form>
+</dialog>
+            </div>
+         </div>
+         <!-- card3 -->
+          <div class="card w-80 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit8.png" alt="" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <p>Red Dragon</p>
+              <button class="btn" onclick="my_modal_4.showModal()">Details</button>
+<dialog id="my_modal_4" class="modal">
+  <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+     <img src="images/fruit8.png" alt="">
+    <h3 class="font-bold text-lg">Red Dragon</h3>
+    <p class="py-4"></p>
+    <div class="modal-action">
+      <button class="btn" style="color: salmon;border: 1px solid salmon;">Close</button>
+      <button class="btn btn-error">Shop Now</button>
+    </div>
+  </form>
+</dialog>
+               
+              </div>
+            </div>
+          <!-- card4 -->
+          <div class="card w-80 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/fruit9.png" alt="" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">12.90$ - 18.85$</h2>
+              <p>Banana</p>
+              <button class="btn" onclick="my_modal_4.showModal()">Details</button>
+              <dialog id="my_modal_4" class="modal">
+                <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+                   <img src="images/fruit8.png" alt="">
+                  <h3 class="font-bold text-lg">Red Dragon</h3>
+                  <p class="py-4"></p>
+                  <div class="modal-action">
+                    <button class="btn" style="color: salmon;border: 1px solid salmon;">Close</button>
+                    <button class="btn btn-error">Shop Now</button>
+                  </div>
+                </form>
+              </dialog>
+</div>
+</div>
+        <div>
         <button  class="btn btn-error" style="height: 50px;width: 100px;">Shop All</button>
+        </div>
       </section>
       <!-- banner3 -->
       <section>
@@ -215,9 +307,9 @@
     <footer class="footer footer-center p-10 bg-base-content text-base-content rounded">
       <div class="flex items-center">
         <img src="images/logo.png" alt="">
-        <h1 style="color: #FFF;font-weight: 700;">Fruit Burst</h1>
+        <h1 class="text-3xl" style="color: #FFF;">Fruit Burst</h1>
       </div>
-      <div class="grid grid-flow-col gap-10" style="font-weight: 600;color: #FFF;">
+      <div class="grid grid-flow-col gap-10 text-xl" style="color: #FFF;">
          <a href="">Home</a>
         <a href="">About us</a> 
         <a href="">Shop</a> 
