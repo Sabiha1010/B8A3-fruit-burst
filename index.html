@@ -126,7 +126,7 @@
           </div>
         </div>
       </div>
-        <div class="grid grid-cols-5 ml-20 mr-30" style="margin-top: -70px;position: relative; background-color: white;justify-content: space-between;width: 1200px;">
+        <div class="grid grid-cols-5 ml-20 mr-30 shadow-xl" style="margin-top: -70px;margin-bottom:15px;padding: 10px 5px 15px 40px;position: relative; background-color: white;justify-content: space-around;width: 1200px;">
           <div>
             <img src="images/fruit1.png" alt="">
             <h2>Grapes</h2>
@@ -153,23 +153,24 @@
     </header>
     <main>
       <!-- banner2 -->
-      <section style=" width: 1400px; height: 600px;">
-        <div style="display: flex;">
-          <div>
+      <section style=" width: 1400px; height: 600px;margin-left: 50px;">
+        <div class="flex items-center">
+          <div style="text-align: left;margin-left: 90px;">
             <h1 class="text-3xl font-bold" style="color: #121212; margin-top: 25px;">Deal of the day</h1>
-            <p class="text-lg" style="color: rgba(18, 18, 18, 0.60);">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+            <p class="text-lg" style="color: rgba(18, 18, 18, 0.60);margin-top: 10px;">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
-            
-          <div class="flex items-center gap-7">
-            <h1 style="color: #121212; font-weight: 800;">29</h1>
-            <img style="width: 20px;height: 18px;" src="images/Frame.jpg" alt="">
-            <h1 style="color: #121212; font-weight: 800;">15</h1>
-            <img style="width: 20px;height: 18px;" src="images/Frame.jpg" alt="">
-            <h1 style="color: #121212; font-weight: 800;">25</h1>
-            <img style="width: 20px;height: 18px;" src="images/Frame.jpg" alt="">
-            <h1 style="color: #121212; font-weight: 800;">08</h1>
-          </div>
-          <div class="flex items-center gap-12"    style="color: rgba(18, 18, 18, 0.60); font-weight: 500;">
+      <!-- countdown -->
+          <div style="margin-left: 100px;">
+            <div class="flex gap-7">
+              <h1 style="color: #121212; font-weight: 800;">29</h1>
+              <img style="width: 20px;height: 18px;" src="images/Frame.jpg" alt="">
+              <h1 style="color: #121212; font-weight: 800;">15</h1>
+              <img style="width: 20px;height: 18px;" src="images/Frame.jpg" alt="">
+              <h1 style="color: #121212; font-weight: 800;">25</h1>
+              <img style="width: 20px;height: 18px;" src="images/Frame.jpg" alt="">
+              <h1 style="color: #121212; font-weight: 800;">08</h1>
+            </div>
+            <div class="flex  gap-12"    style="color: rgba(18, 18, 18, 0.60); font-weight: 500;">
             <h3>Days</h3>
             <h3>Hours</h3>
             <h3>Minutes</h3>
@@ -177,19 +178,18 @@
           </div>
         </div>
       </div>
-        <div class="grid grid-cols-4">
-          <!-- card1 -->
-          <div class="card w-80 bg-base-100 shadow-xl">
+        <div class="grid grid-cols-4 mx-20 gap-10">
+       <!-- card1 -->
+          <div class="card w-70 bg-base-100  shadow-xl">
             <figure class="px-10 pt-10">
               <img src="/images/fruit6.png" alt="" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               <h2 class="card-title">12.90$ - 18.85$</h2>
               <p>Apples</p>
-              <!-- You can open the modal using ID.showModal() method -->
-<button class="btn" onclick="my_modal_4.showModal()">Details</button>
-<dialog id="my_modal_4" class="modal">
-  <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+             <button class="btn" onclick="my_modal_4.showModal()">Details</button>
+            <dialog id="my_modal_4" class="modal">
+            <form method="dialog" class="modal-box w-11/12 max-w-5xl">
      <img src="images/fruit6.png" alt="">
     <h3 class="font-bold text-lg">Apples</h3>
     <p class="py-4"></p>
@@ -202,7 +202,7 @@
             </div>
           </div>
           <!-- card2 -->
-         <div class="card w-80 bg-base-100  shadow-xl">
+         <div class="card w-70 bg-base-100  shadow-xl">
             <figure class="px-10 pt-10">
               <img src="/images/fruit7.png" alt="" class="rounded-xl" />
             </figure>
@@ -224,7 +224,7 @@
             </div>
          </div>
          <!-- card3 -->
-          <div class="card w-80 bg-base-100 shadow-xl">
+          <div class="card w-70 bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
               <img src="/images/fruit8.png" alt="" class="rounded-xl" />
             </figure>
@@ -247,7 +247,7 @@
               </div>
             </div>
           <!-- card4 -->
-          <div class="card w-80 bg-base-100 shadow-xl">
+          <div class="card w-70 bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
               <img src="/images/fruit9.png" alt="" class="rounded-xl" />
             </figure>
@@ -274,7 +274,7 @@
       </section>
       <!-- banner3 -->
       <section>
-        <div class="hero min-h-screen" style="background-image: url(./images/team.png); width: 1300px; height: 500px; margin-left: 110px;">
+        <div class="hero min-h-screen" style="background-image: url(./images/team.png); width: 1300px; height: 400px; margin-left: 110px;">
           <div class="hero-overlay bg-opacity-70"></div>
           <div class="hero-content text-neutral-content">
             <div class="text-center ">
@@ -327,6 +327,47 @@
         </div>
       </section>
     </main>
+    <!-- bonus section -->
+    <section style="margin: 15px 95px 15px 95px;">
+      <div style="text-align: center;">
+        <h1 class="text-4xl">Why Choose Us</h1>
+        <p class="text-lg mt-3 mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+      </div>
+      <div class="grid grid-cols-3">
+      <div style="text-align: left;margin-top: 50px;">
+        <div>
+          <h2 class="text-2xl">Dedicated Team</h2>
+          <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+        </div>
+        <div>
+          <h2 class="text-2xl">Fresh is Best</h2>
+          <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+        </div>
+        <div>
+          <h2 class="text-2xl">Gift Certificates</h2>
+          <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+        </div>
+      </div>
+      <div>
+        <img style="width: 450px;height: 370px;" src="images/whychoose1.png" alt="">
+      </div>
+      <div style="text-align: right;margin-top: 50px;">
+        <div>
+          <h2 class="text-2xl">Integrated Supplier</h2>
+          <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+        </div>
+        <div>
+          <h2 class="text-2xl">Sustainable Practice</h2>
+          <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+        </div>
+        <div>
+          <h2 class="text-2xl">The Benefits Only</h2>
+          <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
+        </div>
+      </div>
+      </div>
+    </section>
+
     <footer class="footer footer-center p-10 bg-base-content text-base-content rounded">
       <div class="flex items-center">
         <img src="images/logo.png" alt="">
